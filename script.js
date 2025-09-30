@@ -113,14 +113,29 @@ if (idade >= 18) {
 
 var opcao = prompt("Informe uma letra");
 
-if (opcao == "M") {
+// if (opcao == "M") {
+//   alert("Masculino");
+// } else if (opcao == "m") {
+//   alert("masculino");
+// } else if (opcao == "F") {
+//   alert("Feminino");
+// } else if (opcao == "f") {
+//   alert("feminino");
+// } else {
+//   alert("Você errou!!!");
+// }
+
+if (opcao === "M" || opcao === "m") {
   alert("Masculino");
-} else if (opcao == "m") {
-  alert("masculino");
-} else if (opcao == "F") {
+} else if (opcao === "F" || opcao === "f") {
   alert("Feminino");
-} else if (opcao == "f") {
-  alert("feminino");
 } else {
-  alert("Você errou!!!");
+  alert("letra incorreta");
 }
+
+// switch (letra) {
+//   case "F":
+//     alert("Feminino");
+//   case "M":
+//     alert("Masculino");
+// }
